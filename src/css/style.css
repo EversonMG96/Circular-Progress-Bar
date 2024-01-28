@@ -23,3 +23,12 @@ body {
     flex-wrap: wrap;
     gap: 40px;
 }
+
+.container .progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #fff;
+    background: #444 linear-gradient(to right, transparent 50%, var(--clr) 0);
+}
