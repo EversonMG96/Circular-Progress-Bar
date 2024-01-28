@@ -42,3 +42,8 @@ body {
     z-index: 1;
     font-weight: 400;
 }
+
+.container .progress h3 span {
+    font-size: 0.65rem;
+    font-weight: 400;
+}
