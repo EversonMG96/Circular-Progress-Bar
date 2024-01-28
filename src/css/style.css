@@ -80,3 +80,5 @@ body {
     background: var(--clr);
     transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
 }
+
+/* if value is less than 50%, then*/
