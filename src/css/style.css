@@ -75,3 +75,8 @@ body {
     border-radius: 50%;
     background: #222;
 }
+
+.container .progress::before {
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+}
