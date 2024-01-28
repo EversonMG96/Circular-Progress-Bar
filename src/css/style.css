@@ -67,3 +67,11 @@ body {
     transform-origin: left;
     border-radius: 0 100% 100% 0/50%;
 }
+
+.container .progress::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #222;
+}
