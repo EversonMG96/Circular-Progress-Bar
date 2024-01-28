@@ -58,3 +58,12 @@ body {
     color: var(--clr);
     text-transform: uppercase;
 }
+
+.container .progress::before {
+    content: "";
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
